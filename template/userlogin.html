@@ -7,19 +7,46 @@
     <body>
         <h1>Registrazione nuovo utente</h1>
         <hr>
+        <br>
         <form action="confirm.html" method="POST">
-            <label for="name">Name:</label> 
+            <label for="name">Nome: </label> 
             <input type="text" id="name" name="sender" maxlength="10" required>
             <br>
-            <label for="cognome">Cognome:</label> 
+            <br>
+            <label for="cognome">Cognome: </label> 
             <input type="text" id="cognome" name="sender" maxlength="10" required>
             <br>
-            
-            <label for="user">User:</label>
+            <br>
+            <label for="date">Inserisci data di nascita: </label>
+            <input type="date" id="date" name="milestone">
+            <br>
+            <br>
+            <label for="genere">Genere: </label>
+            <select name="genere">
+                    <option value="none" selected>-</option>
+                    <option value="maschile">Maschile</option>
+                    <option value="femminile">Femminile</option>
+                    <option value="ns">Preferisco non specificarlo</option>
+                    </select>
+            <br>
+            <br>
+            <label for="user">User: </label>
             <input type="text" id="user" name="user" maxlength="30" required>
             <br>
-            <label for="pwd">Password:</label>
+            <br>
+            <label for="pwd">Password: </label>
             <input type="password" id="pwd" name="pwd" maxlength="30" required>
+            <br>
+            <br>
+            <input type="checkbox" id="commerce" name="chek">
+        <label for="commerce">Acconsento al trattamento dei dati personali per fini commerciali</label>
+        <br>
+    <input type="checkbox" id="news" name="chek" >
+        <label for="news">Desidero ricevere le newsletter</label>
+        <br>
+    <input type="checkbox" id="privacy" name="chek"  required >
+        <label for="privacy">Acconsento ai <a href="https://www.ilfattoquotidiano.it/termini-e-condizioni-dutilizzo/">Termini e Condizioni</a></label>
+        <br>
             <button type="submit">Registrati</button>
         </form>
     </body>
