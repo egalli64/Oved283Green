@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(171, 236, 180, 0.918);
+}
+
+
+/*caselle di input in giallo*/
+input{
+    background-color: rgba(241, 227, 165, 0.918);
+}
+#giallo{
+    background-color: rgba(241, 227, 165, 0.918);
+}
