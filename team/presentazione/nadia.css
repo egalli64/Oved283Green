@@ -1,21 +1,21 @@
 /*grafica tabella*/
 table {
     border-collapse: collapse;
-    Width: 50%;
+    
     } 
-   
+   th{width: 150px;}
     
     td
      {
     border: 1px solid rgb(0, 0, 0);
     padding: 3px;
     text-align: center;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(182, 251   , 174);
     }
    
     [scope=col],[scope=row] {
         border: 1px solid rgb(0, 0, 0);
-        background-color: rgb(167, 167, 167);}
+        background-color: rgb(73,138,9);}
     
         span{
             margin: 10px;
@@ -31,6 +31,16 @@ img{
     margin:10px; 
 }
 div{ 
-    margin-bottom: 150px;
-    margin-top:100px
+    margin-bottom: 180px;
+    margin-top:70px
 }
+/*grafica nome*/
+#top{background-image: url(../../img/nadia/foglie.jpg);
+padding: 40px;
+font-family: cursive;
+font-size: 30pt;
+color: antiquewhite;
+}
+/*grafica sfondo*/
+body{ background-color: rgb(182, 251   , 174);}
+a{color:rgb(0, 0, 0)}
