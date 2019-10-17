@@ -1,5 +1,6 @@
 body{font-family: Arial, Helvetica, sans-serif;}
 body{text-align: center;}
+h1{color:darkgreen}
 img#mec{border-radius: 20px;
         padding: 10px;
         display: block;
@@ -21,14 +22,12 @@ a{color: forestgreen;}
     width: fit-content;
     border-radius: 8px;
     border-color: seagreen;
-    background-color: rgb(203, 224, 203);}
+    background-color: rgb(178, 231, 178);}
 #hobby{font-size: larger;}
 th{color: darkgreen;}
-#foot{background-color: darkseagreen;
-    padding: 10px;}
-div>a{color: black;} 
-#gg{background-color: darkseagreen;
-    padding: 50px;}
+div>a{color: forestgreen;}
+body{background-color: rgb(223, 253, 223);}
+div>a{color: forestgreen;} 
 
 
 
