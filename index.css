@@ -1,7 +1,9 @@
+/*modifica colore dello sfondo*/
 body{
     background-color: rgba(171, 236, 180, 0.918);
 }
 
+/*modifica dimensione, fonte contenitore del titolo*/
 #top{
     font-size: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
