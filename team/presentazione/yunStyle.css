@@ -1,0 +1,21 @@
+body{
+    background-image: url("../../img/yun/albero.jpg");
+    background-size: 100%;
+}
+
+table{
+    border-style: solid;
+    border: black;
+    border-collapse: collapse;
+    border-width: 2px;
+}
+th{
+    border-style: solid;
+    background-color: greenyellow;
+    height: 25px;
+    width: 100px;
+    padding: 5px;;
+}
+th#titolo{
+    background-color: green;
+}
