@@ -28,3 +28,22 @@ table {
     a{
         color:black
     }
+    /*Modifica grafica del titolo}
+    h1{
+    
+    
+   
+    margin-left:;
+background-image: url(../img/comuni/green.jpg) image-set();
+padding: 50px;
+}*/
+h1{ color: rgb(5, 90, 38);
+    font-size:40px;
+    font-family: fantasy;
+    background-color: rgb(164,255,187);
+}
+
+ /*Modifica grafica sfondo*/
+ body{
+     background-color: rgb(209,209,209);
+ }
