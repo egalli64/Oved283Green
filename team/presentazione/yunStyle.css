@@ -11,13 +11,16 @@ table{
 }
 th{
     border-style: solid;
-    background-color: greenyellow;
+    background-color: rgb(65, 252, 65);
     height: 25px;
     width: 100px;
     padding: 5px;;
 }
 th#titolo{
-    background-color: green;
+    background-color: rgb(34, 143, 21);
+}
+th#titoloM{
+    background-color: rgb(18, 112, 18);
 }
 div{
     margin-left: 20px;
