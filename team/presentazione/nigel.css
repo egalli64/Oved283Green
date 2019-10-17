@@ -3,6 +3,8 @@ body{
     background-color: wheat;
 }
 
+/*stile per la tabella degli hobby*/
+/*stile per la tabella globalmente*/
 table{
     border: 2px solid black;
     border-collapse: collapse;
@@ -11,20 +13,19 @@ table{
     font-family: sans-serif;
 }
 
+/*stile per i dati*/
 th, td{
     border: 1px solid blue;
     border-collapse: collapse;
     background-color: yellowgreen;
 }
 
+/*stile per hobby*/
 th#hobby{
     background-color: chocolate;
 }
 
-tr#things{
-    background-color: darksalmon;
-}
-
+/*stile per categorie*/
 tr>th{
     background-color: gold;
 }
