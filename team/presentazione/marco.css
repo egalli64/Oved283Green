@@ -12,17 +12,23 @@ hr{height: 10px;
     border-top: 1px forestgreen;
     border-radius: 6px;}
 a{color: forestgreen;}
-#table{border-style: double;
+#table{border: 5px;
+    border-style: double;
     padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
     border-radius: 8px;
-    border-color: seagreen;}
-
-
-
+    border-color: seagreen;
+    background-color: rgb(203, 224, 203);}
+#hobby{font-size: larger;}
+th{color: darkgreen;}
+#foot{background-color: darkseagreen;
+    padding: 10px;}
+div>a{color: black;} 
+#gg{background-color: darkseagreen;
+    padding: 50px;}
 
 
 
