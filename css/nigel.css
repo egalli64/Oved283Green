@@ -6,7 +6,7 @@ body{
 /*stile per la tabella degli hobby*/
 /*stile per la tabella globalmente*/
 table{
-    border: 2px solid black;
+    border: 2px solid green;
     border-collapse: collapse;
     width:40%;
     text-align: center;
@@ -14,28 +14,28 @@ table{
 }
 
 /*stile per i dati*/
-th, td{
+/*th, td{
     border: 1px solid blue;
     border-collapse: collapse;
     background-color: yellowgreen;
-}
+}*/
 
 /*stile per hobby*/
 th#hobby{
-    background-color: chocolate;
+    background-color: green;;
 }
 
 /*stile per categorie*/
-tr>th{
+/*tr>th{
     background-color: gold;
-}
+}*/
 
 th{
-    color: navy;
+    color: darkorange;;
 }
 
 th.grTableAngle{
-    color: black;
+    color: brown;
 }
 
 div.grTeamMember{
