@@ -6,3 +6,7 @@ body{
 table{
     background-color: green;
 }
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
