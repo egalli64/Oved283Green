@@ -1,58 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>TEAM GREEN</title>
-        <meta charset="utf-8">
-        <style type="text/css">
-        @import url(../css/team.css);
-        </style>
-    </head>
-    <body>
-        
-        <h1>GREEN TEAM</h1>
-    
-        <hr>
-        
-        <p>La nostra squadra</p>
-        <ul>
-            <li><a href="../team/presentazione/marco.html">Marco Emanuele Canepa</a> </li><br>
-            <li><a href="../team/presentazione/nadia.html">Nadia Poli </a></li><br>
-            <li><a href="../team/presentazione/nigel.html">Nigel Losi </a></li><br>
-            <li><a href="../team/presentazione/yun.html">Yun Yu Hu</a></li><br>
 
-            
+<head>
+    <title>TEAM GREEN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+        shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style type="text/css">
+        @import url(../css/team.css);
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid grTitolo">
+        <h1>GREEN TEAM</h1>
+    </div>
+
+    <hr>
+    <div class="container-fluid grTeam">
+        <p>La nostra squadra:
+        <ul>
+            <li><a href="../team/presentazione/marco.html">Marco Emanuele Canepa</a> </li>
+            <li><a href="../team/presentazione/nadia.html">Nadia Poli </a></li>
+            <li><a href="../team/presentazione/nigel.html">Nigel Losi </a></li>
+            <li><a href="../team/presentazione/yun.html">Yun Yu Hu</a></li>
+
+
         </ul>
-        <br>
-        <hr>
-        <br>
-        <table> <!--mi rappresenta la tabella in se, DOPO SI LAVORA DI RIGA IN RIGA-->
-            <tr><!--MI APRE LA MIA RIGA N1-->
-            <th></th><!--LAVORO SULLA PRIMA CELLA DELLA MIA RIGA 1, IN QUESTO CASO è VUOTA C11-->
-            <th scope="col">HTML</th><!--scope indica che è un header della mia cella-->
-            <th scope="col">CSS</th>
-            <th scope="col">JAVASCRIPT</th>
-            <th scope="col">TS</th>
-            <th scope="col">ANG</th>
-            </tr>
-            <tr><!--nuova riga-->
-            <th scope="row">Marco</th>
-            <td></td><td></td><td></td><td></td><td></td><!--indica che ho una cella piena -->
+    </p>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <div class="container-fluid">
+        <table class="table table-borderless table-dark table-hover table-striped">
+            <thead>
+                <tr>
+                    <th scope="row" class="grTableAngle"></th>
+                    <th scope="col">HTML</th>
+                    <th scope="col">CSS</th>
+                    <th scope="col">JAVASCRIPT</th>
+                    <th scope="col">TS</th>
+                    <th scope="col">ANG</th>
+                </tr>
+            </thead>
+            <tr>
+                <th scope="row">Marco</th>
+                <td>2</td>
+                <td>4</td>
+                <td>3</td>
+                <td>w</td>
+                <td>u</td>
             </tr>
             <tr>
-            <th scope="row">Nadia</th>
-            <td></td><td></td><td></td><td></td><td></td>
+                <th scope="row">Nadia</th>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>w</td>
+                <td>u</td>
             </tr>
-        </tr>
-        <tr>
-        <th scope="row">Nigel</th>
-        <td></td><td></td><td></td><td></td><td></td>
-        </tr> </tr>
-        <tr>
-        <th scope="row">Yun</th>
-        <td></td><td></td><td></td><td></td><td></td>
-        </tr>
-            </table>
+            <tr>
+                <th scope="row">Nigel</th>
+                <td>3</td>
+                <td>2</td>
+                <td>4</td>
+                <td>w</td>
+                <td>u</td>
+            </tr>
+            <tr>
+                <th scope="row">Yun</th>
+                <td>4</td>
+                <td>3</td>
+                <td>1</td>
+                <td>w</td>
+                <td>u</td>
+            </tr>
+        </table>
+    </div>
 
-<br><br>    <a href="../index.html">Ritorna alla homepage</a>
-    </body>
+    <br><br>
+    <div class="container-fluid"><a href="../index.html">Ritorna alla homepage</a></div>
+          
+</body>
+
 </html>

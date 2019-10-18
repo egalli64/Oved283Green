@@ -29,3 +29,26 @@ th#hobby{
 tr>th{
     background-color: gold;
 }
+
+th{
+    color: navy;
+}
+
+th.grTableAngle{
+    color: black;
+}
+
+div.grTeamMember{
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 100px;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: darkolivegreen;
+}
+
+h1{
+    font-size: 50px;
+}
