@@ -3,12 +3,12 @@ body{
     background-size: 100%;
 }
 
-table{
+/*table{
     border-style: solid;
     border: black;
     border-collapse: collapse;
     border-width: 2px;
-}
+}*/
 th{
     border-style: solid;
     background-color: rgb(65, 252, 65);
@@ -25,4 +25,19 @@ th#titoloM{
 div{
     margin-left: 20px;
     margin-top: 5px;
+}
+div>img{
+    border-style: double;
+    border-color: darkgreen;
+    border-width: 5px;
+}
+#Titolo{
+    background-color: rgb(33, 226, 33);
+    padding: 5px;
+    margin: 5px;
+}
+#top{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    color:rgb(2, 78, 2);
 }
