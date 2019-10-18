@@ -1,18 +1,20 @@
 table {
     border-collapse: collapse;
-   
     } 
-   
+
+/*th.grTableAngle{
+    background-color:rgb(38, 231, 48) ;
+}*/
     
-    td
+   /* td
      {
     border: 1px solid rgb(0, 0, 0);
     padding: 3px;
     text-align: center;
     background-color: rgb(164, 255, 187)
-    }
+    }*/
    
-    [scope=col],[scope=row] {
+    /*[scope=col],[scope=row] {
         border: 1px solid rgb(0, 0, 0);
         background-color: rgb(4, 133, 0);
         ;}
@@ -30,13 +32,11 @@ table {
     }
     /*Modifica grafica del titolo}
     h1{
-    
-    
-   
     margin-left:;
 background-image: url(../img/comuni/green.jpg) image-set();
 padding: 50px;
 }*/
+
 h1{ color: rgb(5, 90, 38);
     font-size:40px;
     font-family: fantasy;
@@ -47,3 +47,33 @@ h1{ color: rgb(5, 90, 38);
  body{
      background-color: rgb(209,209,209);
  }
+
+div.grTitolo{
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    background-color:rgb(164,255,187);
+    border-style: groove;
+    border-color: lightseagreen;
+    border-width: 5px;
+}
+
+div.grTeam{
+    background-color: rgb(152, 189, 219);
+    border-style: double;
+    border-color: slategray;
+    border-width: 3px;
+}
+
+h1{
+    font-size: 100px;
+    font-family: initial;
+}
+
+p{
+    font-size: 30px;
+}
+
+li{
+    font-size: 30px;
+}
