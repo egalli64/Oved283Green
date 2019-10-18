@@ -2,3 +2,7 @@
 body{
     background-color: rgba(171, 236, 180, 0.918);
 }
+
+input.grBoxColor{
+    background-color: yellow;
+}
