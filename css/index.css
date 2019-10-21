@@ -11,13 +11,12 @@ body{
 }
 
 button.invisible{
-    background-color: transparent;
-    border-color: transparent;
-    box-shadow: none;
-    color: transparent;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
+    /*background-color: transparent;*/
+    /*border-color: transparent;*/
+    /*box-shadow: none;*/
+    /*color: transparent;*/
 }
-  
+
+img{
+    object-fit: cover;
+}
