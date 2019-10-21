@@ -29,6 +29,7 @@ img{
     border: 4px;
     float: left;
     margin:10px; 
+    
 }
 div{ 
     margin-bottom: 180px;
@@ -40,6 +41,7 @@ padding: 40px;
 font-family: cursive;
 font-size: 30pt;
 color: antiquewhite;
+
 }
 /*grafica sfondo*/
 body{ background-color: rgb(209,209,209);}
