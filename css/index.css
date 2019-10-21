@@ -9,3 +9,15 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
 }
+
+button.invisible{
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: transparent;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+  

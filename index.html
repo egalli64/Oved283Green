@@ -8,9 +8,7 @@
     <meta name="description" content="Green Events">
     <!--da modificare-->
     <meta name="keywords" content="green, events, sustainable">
-    <link rel="stylesheet"
-    type="text/css"
-    href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
     <!--da modificare-->
 </head>
 
@@ -20,7 +18,7 @@
     <h1 id="top">GreenEvents</h1>
     <!--da modificare-->
     <h3>Accesso</h3>
-    <form action="template/access.html" method="POST">
+    <form action="template/access.html" method="POST" id="accesso">
         <div>
             <label for="name">Username:</label>
             <input type="text" id="name" name="sender" size="25" required><br>
@@ -29,21 +27,29 @@
             <button type="submit">Accedi</button>
         </div>
     </form>
+
+
     <figure>
         <img src="img/comuni/greenforest.jpg" alt="green forest" title="Foresta verde" height="300" width="480">
         <img src="img/comuni/greenforest2.jpg" alt="green forest" title="Foresta verde" height="300" width="480"><br>
         <img src="img/comuni/greenforest3.jpg" alt="green forest" title="Foresta verde" height="300" width="480">
         <img src="img/comuni/greenforest4.jpg" alt="green forest" title="Foresta verde" height="300" width="480">
     </figure>
-
-
     <br>
     <p>Non sei ancora un utente di GreenEvents? <a href="template\userlogin.html">Registrati!</a></p>
     <hr>
     <a href="#top">&uarr;</a>
     <a href="team/team.html">Team di sviluppo</a><br>
     <a href="template\adminlogin.html">Admin login</a>
+
+
+    <p>TESTO PER BOTTONE INVISIBILE</p>
+    <form action="index.html#accesso">
+        <div class="container-fluid">
+        <button type="submit" class="invisible">
+            <img src="img/comuni/greenforest.jpg" alt="green forest" title="Foresta verde" height="300" width="480">
+        </button>
+        </div>
+    </form>
+
 </body>
-
-
-</html>
