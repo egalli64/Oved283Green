@@ -3,6 +3,9 @@
     <head>
         <title>Registrazione utente</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+        shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <style type="text/css">
             @import url("../css/userlogin.css");
         </style>
@@ -10,7 +13,7 @@
     <body>
         <h1>Registrazione nuovo utente</h1>
         <hr>
-        <br>
+    
         <form action="confirm.html" method="POST">
             <label for="name">Nome: </label> 
             <input type="text" id="name" name="sender" maxlength="10" required>
@@ -50,9 +53,13 @@
     <input type="checkbox" id="privacy" name="chek"  required >
         <label for="privacy">Acconsento ai <a href="../documents/Termini.pdf" target="_blank">Termini e Condizioni</a></label>
         <br>
-            <button type="submit">Registrati</button>
+        <br>
+            <button type="submit" class="btn btn-secondary btn-lg">Registrati</button>
         </form>
 
 <br><br>    <a href="../index.html">Torna indietro</a>
+
+
+
     </body>
 </html>

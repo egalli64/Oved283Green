@@ -1,12 +1,22 @@
-body{
-    background-color: rgba(171, 236, 180, 0.918);
-}
+
+h1{
+    color: green;
+    font-family: fantasy;
+    font-size: 30pt;
+    margin: 30px; 
+    }
+/*{
+    margin-left: 30px;
+}*/
 
 
-/*caselle di input in giallo*/
-input{
-    background-color: rgba(241, 227, 165, 0.918);
+hr{
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+    margin: 20px;
 }
-#giallo{
-    background-color: rgba(241, 227, 165, 0.918);
+form{
+    margin-left:35px;
 }
+button{}
