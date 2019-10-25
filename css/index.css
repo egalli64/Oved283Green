@@ -1,7 +1,9 @@
-/*modifica colore dello sfondo*/
-body{
-    background-color: rgba(171, 236, 180, 0.918);
-}
+/*modifica colore dello sfondo
+div{
+    margin-left: 30px;
+    margin-right: 30px;
+
+}*/
 
 /*modifica dimensione, fonte contenitore del titolo*/
 #top{
@@ -10,8 +12,8 @@ body{
     margin: 0px;
 }
 
-button.invisible{
-    /*background-color: transparent;*/
+/*button.invisible{
+    background-color: transparent;*/
     /*border-color: transparent;*/
     /*box-shadow: none;*/
     /*color: transparent;*/
@@ -19,4 +21,14 @@ button.invisible{
 
 img{
     object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+body{
+    margin:30px;
+}
+div.col-sm-3,div.col-md-3,div.col-lg-3,div.col-xl-3{
+    margin: 0px;
+
 }
