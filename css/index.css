@@ -32,3 +32,6 @@ div.col-sm-3,div.col-md-3,div.col-lg-3,div.col-xl-3{
     margin: 0px;
 
 }
+.container-fluid{
+    padding: 0px;
+}
