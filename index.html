@@ -11,56 +11,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <style type="text/css">
+        @import url(../css/pagestyle.css);
+    </style>
     <!--da modificare-->
 </head>
 
 <body>
 
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <!--Header-->
+            <div class="col-sm-1 col-md-1 col-xl-1"></div>
+            <div class="col-sm-1 col-md-2 col-xl-6">
+                <a href="../index.html">
+                    <img src="../img/comuni/Senza titolo-3psd.gif" alt="Green Events" height="200">
+                </a>
+            </div>
+            <div class="col-sm-1 col-md-1 col-xl-1"> </div>
+            <div class="col-sm-6 col-md-4 col-xl-1"></div>
+            <div class="col-sm-2 col-md-3 col-xl-2" id="form">
+                <form action="access.html" method="POST" id="accesso">
+                    <div>
+                        <label for="name">Username:</label>
+                        <input type="text" name="sender" size="15" required>
+                        <label for="pwd">Password:</label>
+                        <input type="password" name="pwd" size="15" maxlength="40" required>
+                        <button type="submit">Accedi</button>
+                    </div>
+                </form> <br>
+                <a id="reg" href="userlogin.html">Registrati</a>
+            </div>
+            <div class="col-sm-1 col-md-1 col-xl-1"></div>
+        </div> <br>
 
-    <h1 id="top">GreenEvents</h1>
-    <!--da modificare-->
-    <h3>Accesso</h3>
-    <form action="template/access.html" method="POST" id="accesso">
-        <div>
-            <label for="name">Username:</label>
-            <input type="text" id="name" name="sender" size="25" required><br>
-            <label for="pwd">Password:</label>
-            <input type="password" name="pwd" size="25" maxlength="40" required><br>
-            <button type="submit">Accedi</button>
-        </div>
-    </form> <br>
 
 
-   <!-- <figure>
+        <!-- <figure>
         <img src="img/comuni/greenforest.jpg" alt="green forest" title="Foresta verde" height="300" width="480">
         <img src="img/comuni/greenforest2.jpg" alt="green forest" title="Foresta verde" height="300" width="480"><br>
         <img src="img/comuni/greenforest3.jpg" alt="green forest" title="Foresta verde" height="300" width="480">
         <img src="img/comuni/greenforest4.jpg" alt="green forest" title="Foresta verde" height="300" width="480">
-    </figure>-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-            <a href="eventi/evento1.html"><img src="img/comuni/sempione.jpg" alt="green forest" title="Parco Sempione" height="300"  width="330"
-            class="img-responsive"></a></div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                <a href="eventi/evento2.html"><img src="img/comuni/roseto.jpg" alt="green forest" title="Roseto" height="300"  width="330"
-            class="img-responsive"></a></div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                <a href="eventi/evento3.html"><img src="img/comuni/castagna.jpg" alt="green forest" title="Sagra della Zucca" height="300"  width="330"
-            class="img-responsive"></a></div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                <a href="eventi/evento4.html"><img src="img/comuni/vino.jpg" alt="green forest" title="Festa del vino" height="300" width="330"
-            class="img-responsive"></a></div>
+        </figure>-->
+
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <a href="eventi/evento1.html"><img src="img/comuni/sempione.jpg" alt="green forest"
+                        title="Parco Sempione" height="300" width="330" class="img-responsive"></a></div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <a href="eventi/evento2.html"><img src="img/comuni/roseto.jpg" alt="green forest" title="Roseto"
+                        height="300" width="330" class="img-responsive"></a></div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <a href="eventi/evento3.html"><img src="img/comuni/castagna.jpg" alt="green forest"
+                        title="Sagra della Zucca" height="300" width="330" class="img-responsive"></a></div>
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <a href="eventi/evento4.html"><img src="img/comuni/vino.jpg" alt="green forest" title="Festa del vino"
+                        height="300" width="330" class="img-responsive"></a></div>
+        </div>
+
+
+        <div id="contentIndex"></div>
+
+        <div class="row" id="footer">
+            <!--Footer-->
+            <div class="col-sm-1 col-md-1 col-xl-1"></div>
+            <div class="col-sm-2 col-md-1 col-xl-1">
+                <a class="foot" href="../team/team.html">Team</a>
+            </div>
+            <div class="col-sm-6 col-md-8 col-xl-8">
+                <p id="legis">La Scala, Via Filodrammatici, 2, 20121 Milano MI</p>
+                <p id="copy">Tutti i marchi riportati appartengono ai legittimi proprietari; nomi di prodotti, nomi
+                    commerciali e società citati possono essere marchi di proprietà dei rispettivi titolari o marchi
+                    registrati d’altre società e sono stati utilizzati a puro scopo esplicativo ed a beneficio del
+                    possessore, senza alcun fine di violazione dei diritti di Copyright vigenti.</p>
+            </div>
+            <div class="col-sm-2 col-md-1 col-xl-1">
+                <a class="foot" href="adminlogin.html">Admin Login</a>
+            </div>
+            <div class="col-sm-1 col-md-1 col-xl-1"></div>
+        </div>
+
     </div>
-</div>
-
-
-    <br>
-    <p>Non sei ancora un utente di GreenEvents? <a href="template\userlogin.html">Registrati!</a></p>
-    <hr>
-    <a href="#top">&uarr;</a>
-    <a href="team/team.html">Team di sviluppo</a><br>
-    <a href="template\adminlogin.html">Admin login</a>
 
 
     <!--<p>TESTO PER BOTTONE INVISIBILE</p>
