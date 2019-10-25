@@ -1,12 +1,9 @@
-div.row{background-color: rgb(147, 231, 147);
+#header{background-color: rgb(147, 231, 147);
     box-shadow:inset 0 -14px 8px -6px rgb(72, 190, 72);
     color: darkgreen;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;}
+    padding: 7px;}
 #content{height: 90vh;}
-#title{text-align: center; 
-    font-size:30px;}
 hr{height: 15px;
     border: 1;
     box-shadow:inset 0 10px 8px -1px rgb(72, 190, 72);
@@ -15,7 +12,17 @@ hr{height: 15px;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
     margin: 0px;}
-#logo{vertical-align:middle;}
-#name{text-align: right;}
-#footer{box-shadow:inset 0 -25px 15px -2px rgb(72, 190, 72);}
-#team{color: darkgreen;}
+#form{text-align: end;}
+#reg{color: darkgreen;}
+#footer{background-color: rgb(147, 231, 147);
+    box-shadow:inset 0 -25px 15px -2px rgb(72, 190, 72);
+    font-size: 12px;
+    padding: 8px;}
+a.foot{color: darkgreen;}
+#legis{text-align: center;
+    color: darkgreen;
+    margin: 0px;}
+#copy{text-align: center;
+    font-size: 9px;
+    color: darkgreen;
+    margin: 0px;}
