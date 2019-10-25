@@ -48,6 +48,10 @@ h1{ color: rgb(5, 90, 38);
      background-color: rgb(209,209,209);
  }
 
+ body{
+    background-color: rgb(245, 240, 240);
+}
+
 div.grTitolo{
     margin-left: 0px;
     margin-right: 0px;
@@ -76,4 +80,10 @@ p{
 
 li{
     font-size: 30px;
+}
+
+div.container-fluid{
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
