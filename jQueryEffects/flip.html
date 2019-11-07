@@ -7,6 +7,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,
         shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+    <script src="flip.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style type="text/css">
         @import url("../css/listaEventi.css");
@@ -16,25 +20,43 @@
 <body>
     <div class="container-fluid">
         <h1>Festival del Verde e del Paesaggio 2019</h1>
-        <div>
-            <img src="..\img\comuni\sempione.jpg" title="Festival del Verde e del Paesaggio 2019" width="800px"
-                height="400px">
-            <p>
-                Il Festival del Verde e del Paesaggio 2019 riaprirà i battenti
-                al parco Sempione dal 10 al 12 novembre con tante novità per chi ama le piante e il verde.
-            </p>
-            <p>
-                In programma dal 10 al 12 novembre 2019 nei giardini del parco Sempione di Milano,
-                il
-                Festival del Verde e del Paesaggio è il più importante e innovativo appuntamento italiano
-                dedicato alle tendenze del verde in città e del design da esterni. Aperto al grande pubblico – oltre
-                150.000
-                visitatori in otto anni di cui 22.000 solo nell’ultima edizione – vede la partecipazione di
-                professionisti,
-                architetti del paesaggio e studi di progettazione, designers, vivai, garden center, aziende di outdoor.
-            </p>
-        </div>
+        <hr>
+        <div id="flip">
+            <div>
+                <div class="front"
+                    style="height: 100%; width: 100%; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; transition: all 0.5s ; transform: rotateY(0deg);">
+                    <img src="..\img\comuni\sempione.jpg" alt="" style="backface-visibility: hidden;"
+                        title="Festival del Verde e del Paesaggio 2019">
+                </div>
 
+            </div>
+            <div class="back"
+                style="transform: rotateY(-180deg); height: 100%; width: 100%; backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 0; transition: all 0.5s ">
+                <div>
+
+                    <p>
+                        Il Festival del Verde e del Paesaggio 2019 riaprirà i battenti
+                        al parco Sempione dal 10 al 12 novembre con tante novità per chi ama le piante e il verde.
+                    </p>
+                    <p>
+                        In programma dal 10 al 12 novembre 2019 nei giardini del parco Sempione di Milano,
+                        il
+                        Festival del Verde e del Paesaggio è il più importante e innovativo appuntamento italiano
+                        dedicato alle tendenze del verde in città e del design da esterni. Aperto al grande pubblico –
+                        oltre
+                        150.000
+                        visitatori in otto anni di cui 22.000 solo nell’ultima edizione – vede la partecipazione di
+                        professionisti,
+                        architetti del paesaggio e studi di progettazione, designers, vivai, garden center, aziende di
+                        outdoor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
         <table class="table table-bordered table-striped">
 
             <tr>
@@ -59,6 +81,7 @@
                 <td>10 &euro;</td>
             </tr>
         </table>
+
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.885924626152!2d9.175035615767036!3d45.47210184093684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c148ade54659%3A0xb8bbdd2120f993b6!2sParco%20Sempione!5e0!3m2!1sit!2sit!4v1571409804294!5m2!1sit!2sit"
             width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> <br>
@@ -66,6 +89,9 @@
         <a href="listaEventi.html">Torna indietro</a>
         <hr>
     </div>
+
+    </div>
+
 </body>
 
 </html>

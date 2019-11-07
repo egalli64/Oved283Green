@@ -10,23 +10,23 @@ h1{
     margin-left: 30px;
 }*/
 
-p{
+/*p{
     margin-left: 35px;
-}
+}*/
 hr{
     border-color: green;
     border-style: solid;
     border-width: 1px;
     margin: 20px;
 }
-/*immagini*/
+/*immagini
 img{
-    margin: 30px;
+    margin: 30px;*/
 }
-img.hove:hover{
+/*img.hove:hover{
     width: 600px;
     height: 400px;
-}
+}*/
 /*paragrafo view more
 .my_text_box { 
     max-height: 70px; 
@@ -44,3 +44,26 @@ img.hove:hover{
     text-align: center; 
     padding: 10px 0; 
 } */
+
+/********************************/
+#flip {
+    
+    width: 800px;
+    margin: 30px;
+}
+#flip img {
+    width: 800px;
+    height: auto;
+    margin:30px;
+}
+#flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+table{
+    margin-top: 400px;
+}
+.front{
+    margin:30px;
+}
