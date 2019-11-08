@@ -8,60 +8,83 @@
     <meta name="description" content="Green Events">
     <meta name="keywords" content="green, events, sustainable">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
+<!--Importo file esterni .css .js-->
     <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="js/index.js"></script> 
+    <script src="js/index.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/indextemp.css" />
     <style type="text/css">
+        @import url(css/indextemp.css);
+        @import url(css/pagestyle.css);
         @import url(css/index.css);
     </style>
 
 </head>
 
 <body>
-    
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
+    <div id="content">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-            <a href="eventi/evento1.html">
-            <img src="img/comuni/sempione.jpg" style="width:100%">
-            
-            <div class="text">Festa nel verde</div></a>
-        </div>
-        <div class="mySlides fade">
-            <a href="eventi/evento2.html">
-            <img src="img/comuni/roseto.jpg" style="width:100%">
-            <div class="text">Visita al roseto</div>
-            </a>
-        </div>
-        <div class="mySlides fade">
-            <a href="eventi/evento3.html">
-            <img src="img/comuni/castagna.jpg" style="width:100%">
-            <div class="text">Sagra della zucca e della castagna</div>
-            </a>
-        </div>
-        <div class="mySlides fade">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <a href="eventi/evento1.html">
+                    <img src="img/comuni/sempione.jpg" style="width:100%">
+
+                    <div class="text">Festa nel verde</div>
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="eventi/evento2.html">
+                    <img src="img/comuni/roseto.jpg" style="width:100%">
+                    <div class="text">Visita al roseto</div>
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="eventi/evento3.html">
+                    <img src="img/comuni/castagna.jpg" style="width:100%">
+                    <div class="text">Sagra della zucca e della castagna</div>
+                </a>
+            </div>
+            <div class="mySlides fade">
                 <a href="eventi/evento4.html">
-            <img src="img/comuni/vino.jpg" style="width:100%">
-            <div class="text">Festa del vino</div>
-            </a>
+                    <img src="img/comuni/vino.jpg" style="width:100%">
+                    <div class="text">Festa del vino</div>
+                </a>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+        <br>
 
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
     </div>
-    <br>
 
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
+    <div class="row" id="footer">
+        <!--Footer-->
+        <div class="col-sm-1 col-md-1 col-xl-1"></div>
+        <div class="col-sm-2 col-md-1 col-xl-1">
+            <a class="foot" href="team/team.html">Team</a>
+        </div>
+        <div class="col-sm-6 col-md-8 col-xl-8">
+            <!--informativa legale-->
+            <p id="legis">La Scala, Via Filodrammatici, 2, 20121 Milano MI</p>
+            <p id="copy">Tutti i marchi riportati appartengono ai legittimi proprietari; nomi di prodotti, nomi
+                commerciali e società citati possono essere marchi di proprietà dei rispettivi titolari o marchi
+                registrati d’altre società e sono stati utilizzati a puro scopo esplicativo ed a beneficio del
+                possessore, senza alcun fine di violazione dei diritti di Copyright vigenti.</p>
+        </div>
+        <div class="col-sm-2 col-md-1 col-xl-1">
+            <a class="foot" href="adminlogin.html">Admin Login</a>
+        </div>
+        <div class="col-sm-1 col-md-1 col-xl-1"></div>
     </div>
 </body>
 
