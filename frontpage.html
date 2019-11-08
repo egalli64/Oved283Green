@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/js/frontpage.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+        shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/frontpage.css" />
+
+
+</head>
+
+<body>
+
+    <div class="bg-img row">
+        <div class="col-sm-1 col-md-1 col-xl-2"> <img src="/img/comuni/Senza titolo-3psd.gif" id="logo"></div>
+        <div class="col-sm-6 col-md-4 col-xl-8">
+            <div class="popup-content">
+                <h1>Registrazione nuovo utente</h1>
+                <hr>
+
+                <form action="index.html" method="POST" id="newUser">
+                    <label for="name">Nome: </label>
+                    <input class="popped" type="text" id="name" name="sender" maxlength="10" required>
+                    <br>
+                   
+                    <label for="cognome">Cognome: </label>
+                    <input class="popped" type="text" id="cognome" name="sender" maxlength="10" required>
+                    <br>
+                    
+                    <label for="date">Inserisci data di nascita: </label>
+                    <input type="date" id="date" name="milestone">
+                    <br>
+                    
+                    <label for="genere">Genere: </label>
+                    <select id="giallo" name="genere">
+                        <option value="none" selected>-</option>
+                        <option value="maschile">Maschile</option>
+                        <option value="femminile">Femminile</option>
+                        <option value="ns">Preferisco non specificarlo</option>
+                    </select>
+                    <br>
+                    <label for="user">Username: </label>
+                    <input class="popped" type="text" id="usrr" name="user" maxlength="30" required>
+                    <br>
+                    
+                    <label for="pwd">Password: </label>
+                    <input class="popped" type="password" id="pwd" name="pwd" maxlength="30" required>
+                    <br>
+                    
+                    <input type="checkbox" id="commerce" name="chek">
+                    <label for="commerce">Acconsento al trattamento dei dati personali per fini commerciali</label>
+                    <br>
+                    <input type="checkbox" id="news" name="chek">
+                    <label for="news">Desidero ricevere le newsletter</label>
+                    <br>
+                    <input type="checkbox" id="privacy" name="chek" required>
+                    <label for="privacy">Acconsento ai <a href="../documents/Termini.pdf" target="_blank">Termini e
+                            Condizioni</a></label>
+                    <br>
+                    
+                    <button type="submit" class="btn btn-secondary btn-lg">Registrati</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-2 col-md-3 col-xl-2" id="form">
+            <form action="/index.html" class="container" onsubmit="return check()">
+
+                <h1>Login</h1>
+
+                <label for="username"><b>Username: </b></label>
+                <input type="text" placeholder="Enter Username" id="user" name="username" required>
+
+                <label for="psw"><b>Password: </b></label>
+                <input type="password" placeholder="Enter Password" id="pass" name="psw" required>
+
+                <button type="submit" class="btn" id="lgn"><u>Login</u></button>
+                <button type="button" class="btn" id="reg">Non hai ancora un account?<br><u>Registrati</u></button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

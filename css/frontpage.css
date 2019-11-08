@@ -1,0 +1,103 @@
+body, html {
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#logo {
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url(../img/comuni/wind-farm-1209335_1920-1400x788.jpg) ;
+  padding: 6px;
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 3px;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  height: 500px;
+  right: 10px;
+  top: 10;
+  margin: 10px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: whitesmoke;
+  opacity: 0.93;
+  border-radius: 3px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #e6e5e5;
+  border-radius: 3px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(206, 206, 206);
+  outline: none;
+  border-radius: 8px;
+}
+
+.btn {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #4CAF50;
+  color: whitesmoke;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 3px;
+}
+
+#reg {
+    margin-top: 25px;
+}
+
+.btn:hover {
+  opacity: 1;
+  border-radius: 8px;
+}
+
+    
+.popup-content {
+    visibility:hidden;
+}
+
+
+.popup-content.active {
+    visibility:visible;
+    width: 600px;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    background: rgb(245, 245, 245, 0.8);
+    
+}
+
+#newUser {
+    opacity: 1;
+}
+
+input.popped {
+    background-color: white;
+}
