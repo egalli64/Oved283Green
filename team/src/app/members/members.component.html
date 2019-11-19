@@ -1,0 +1,54 @@
+<select #sel id="squadre" (change)='cambia(sel);'>
+    <option value="1">Red</option>
+    <option value="2">Blue</option>
+    <option value="3" selected="selected">Green</option>
+    <option value="4">Yellow</option>
+</select>
+
+
+
+
+<div [ngSwitch]="color">
+    <span *ngSwitchCase="'1'">
+        <ul>
+            <li *ngFor="let name of red">
+                <app-member [name]="name"></app-member>
+            </li>
+        </ul>
+    </span>
+    <span *ngSwitchCase="'2'">
+        <ul>
+            <li *ngFor="let name of blue">
+                <app-member [name]="name"></app-member>
+            </li>
+        </ul>
+    </span>
+    <span *ngSwitchCase="'3'">
+        <ul>
+            <li *ngFor="let name of green">
+                <app-member [name]="name"></app-member>
+            </li>
+        </ul>
+    </span>
+    <span *ngSwitchCase="'4'">
+        <ul>
+            <li *ngFor="let name of yellow">
+                <app-member [name]="name"></app-member>
+            </li>
+        </ul>
+    </span>
+    <span *ngSwitchDefault>
+        <ul>
+            <li *ngFor="let name of green">
+                <app-member [name]="name"></app-member>
+            </li>
+        </ul>
+    </span>
+</div>
+
+<div>
+    <label for="person">Name:</label>
+    <input #txt type="text" id="person" name="person">
+    <button type="button" (click)='bgChange(txt);'>Change Background</button>
+</div>
+
